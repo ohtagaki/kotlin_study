@@ -1,4 +1,4 @@
-package section2
+package section02
 
 fun main() {
     // 配列とコレクション

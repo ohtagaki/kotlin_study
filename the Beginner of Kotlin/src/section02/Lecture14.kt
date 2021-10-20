@@ -1,4 +1,4 @@
-package section2
+package section02
 
 fun main() {
     // 定数：変数のように値に名前を与えるが、一度定義したら値が変わらないもの

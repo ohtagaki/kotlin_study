@@ -1,4 +1,4 @@
-package section2
+package section02
 
 fun main() {
     // nullとは：値(オブジェクトの参照)を持たないことを意味する値
