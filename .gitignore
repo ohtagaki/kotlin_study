@@ -1,0 +1,7 @@
+# .imlファイルは要らない
+*.iml
+
+# 以下のフォルダは要らない
+.idea/
+the Beginner of Kotlin/.idea/
+the Beginner of Kotlin/out/
