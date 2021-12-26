@@ -1,5 +1,10 @@
 # .imlファイルは要らない
 *.iml
+algo-method/*.kts
+algo-method/*.bat
+algo-method/gradle.properties
+algo-method/gradlew
+
 
 # 以下のフォルダは要らない
 .idea/
