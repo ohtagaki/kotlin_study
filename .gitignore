@@ -6,6 +6,7 @@ algo-method/gradle.properties
 algo-method/gradlew
 
 
+
 # 以下のフォルダは要らない
 .idea/
 the Beginner of Kotlin/.idea/
@@ -14,3 +15,7 @@ algo-method/.gradle/
 algo-method/.idea/
 algo-method/gradle/
 algo-method/build/
+kotlin-server-side-practice/.gradle/
+kotlin-server-side-practice/.idea/
+kotlin-server-side-practice/gradle/
+kotlin-server-side-practice/build/
