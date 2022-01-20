@@ -1,5 +1,8 @@
 package `regular-expression`.escape
 
+// 問題
+// https://algo-method.com/tasks/297
+
 fun main() {
     val S = readLine()!!.toString()
     val reg = Regex(pattern = "1\\+1")
