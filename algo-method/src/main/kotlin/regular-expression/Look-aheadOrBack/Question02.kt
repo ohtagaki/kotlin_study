@@ -1,7 +1,7 @@
 package `regular-expression`.`Look-aheadOrBack`
 
 // 問題
-// https://algo-method.com/tasks/436
+// https://algo-method.com/tasks/646
 
 fun main() {
     val S = readLine()!!
