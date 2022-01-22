@@ -1,10 +1,11 @@
-# .imlファイルは要らない
+# 以下のファイルは要らない
 *.iml
 algo-method/*.kts
 algo-method/*.bat
 algo-method/gradle.properties
 algo-method/gradlew
-
+math-algorithm-book/*.bat
+math-algorithm-book/gradlew
 
 
 # 以下のフォルダは要らない
@@ -19,6 +20,9 @@ kotlin-server-side-practice/.gradle/
 kotlin-server-side-practice/.idea/
 kotlin-server-side-practice/gradle/
 kotlin-server-side-practice/build/
+math-algorithm-book/.gradle/
+math-algorithm-book/gradle/
+math-algorithm-book/build/
 
 # privateなため見せない
 kotlin-server-side-practice/
