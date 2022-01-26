@@ -1,4 +1,4 @@
-package chapter03
+package chapter03.section03
 
 // 問題
 // https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_u

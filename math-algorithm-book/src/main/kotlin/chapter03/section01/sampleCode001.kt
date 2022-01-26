@@ -1,4 +1,4 @@
-package chapter03
+package chapter03.section01
 
 // 素数判定を行うプログラム
 fun main() {

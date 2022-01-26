@@ -1,4 +1,4 @@
-package chapter03
+package chapter03.section02
 
 import kotlin.math.min
 
