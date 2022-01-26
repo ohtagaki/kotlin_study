@@ -1,10 +1,9 @@
-package chapter03
+package chapter03.section01
 
 // 問題
 // https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_n
 
 import kotlin.math.sqrt
-import kotlin.math.truncate
 
 // 考え方：小さい素数から割り切れるだけ割り切る→割り切れなくなったら、次の素数
 fun main() {

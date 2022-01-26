@@ -1,4 +1,4 @@
-package chapter03
+package chapter03.section01
 
 import kotlin.math.sqrt
 import kotlin.math.truncate

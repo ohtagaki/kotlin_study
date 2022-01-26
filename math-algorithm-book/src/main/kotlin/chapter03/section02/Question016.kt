@@ -1,21 +1,23 @@
-package chapter03
+package chapter03.section02
+
+// 問題
+// https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_p
 
 fun main() {
     val N = readLine()!!.toLong()
     val list = readLine()!!.split(" ").mapNotNull(String::toLongOrNull)
-    // 2個の自然数の最小公倍数の求め方
-    // a と b の最大公約数を d とする
-    // (a×b)/ d が最小公倍数
-    // N個の自然数の最小公倍数を求める場合でも、2つずつ最小公倍数を求めていけば、最終的に全ての自然数の最小公倍数が求まる
+    // N個の自然数の最大公約数の求め方
+    // N個の自然数の最大公約数： リスト {a1,a2,a3,…,aN} の要素数が 1 つになるまで以下を繰り返す
+    // 1.リストから2つ選んで最大公約数 gcd を計算し、リストに加える
+    // 2.最後に残った1つが全体の最大公約数
     var answer = list[0]
     for (index in 1 until list.size) {
-        val gcd = makeGreatestCommonDivisorForLCM(answer, list[index])
-        answer *= list[index] / gcd
+        answer = makeGreatestCommonDivisor(answer, list[index])
     }
     println(answer)
 }
 
-fun makeGreatestCommonDivisorForLCM(numA: Long, numB: Long): Long {
+fun makeGreatestCommonDivisor(numA: Long, numB: Long): Long {
     // 正の整数A、Bの最大公約数を返す関数
     var A = numA
     var B = numB
