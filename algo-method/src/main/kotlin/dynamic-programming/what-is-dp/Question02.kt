@@ -1,5 +1,8 @@
 package `dynamic-programming`.`what-is-dp`
 
+// 問題
+// https://algo-method.com/tasks/303
+
 import kotlin.math.min
 
 fun main() {
