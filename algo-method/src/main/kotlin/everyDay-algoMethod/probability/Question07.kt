@@ -1,4 +1,4 @@
-package `everyDay-algoMethod`.` probability`
+package `everyDay-algoMethod`.probability
 
 fun main() {
     val N = readLine()!!.toInt()

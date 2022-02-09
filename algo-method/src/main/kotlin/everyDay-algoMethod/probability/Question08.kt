@@ -1,4 +1,4 @@
-package `everyDay-algoMethod`.` probability`
+package `everyDay-algoMethod`.probability
 
 // 問題
 // https://algo-method.com/tasks/765
